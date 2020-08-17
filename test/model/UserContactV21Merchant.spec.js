@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.UserContactV21Merchant();
+    instance = new fulfillmentApiV2.UserContactV21Merchant();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,13 +49,13 @@
   describe('UserContactV21Merchant', function() {
     it('should create an instance of UserContactV21Merchant', function() {
       // uncomment below and update the code to test UserContactV21Merchant
-      //var instane = new FulfillmentcomApIv2.UserContactV21Merchant();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.UserContactV21Merchant);
+      //var instane = new fulfillmentApiV2.UserContactV21Merchant();
+      //expect(instance).to.be.a(fulfillmentApiV2.UserContactV21Merchant);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.UserContactV21Merchant();
+      //var instane = new fulfillmentApiV2.UserContactV21Merchant();
       //expect(instance).to.be();
     });
 

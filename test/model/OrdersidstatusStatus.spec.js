@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OrdersidstatusStatus();
+    instance = new fulfillmentApiV2.OrdersidstatusStatus();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,13 +49,13 @@
   describe('OrdersidstatusStatus', function() {
     it('should create an instance of OrdersidstatusStatus', function() {
       // uncomment below and update the code to test OrdersidstatusStatus
-      //var instane = new FulfillmentcomApIv2.OrdersidstatusStatus();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OrdersidstatusStatus);
+      //var instane = new fulfillmentApiV2.OrdersidstatusStatus();
+      //expect(instance).to.be.a(fulfillmentApiV2.OrdersidstatusStatus);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new FulfillmentcomApIv2.OrdersidstatusStatus();
+      //var instane = new fulfillmentApiV2.OrdersidstatusStatus();
       //expect(instance).to.be();
     });
 

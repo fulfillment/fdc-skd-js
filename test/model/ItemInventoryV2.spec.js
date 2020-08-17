@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ItemInventoryV2();
+    instance = new fulfillmentApiV2.ItemInventoryV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,25 +49,25 @@
   describe('ItemInventoryV2', function() {
     it('should create an instance of ItemInventoryV2', function() {
       // uncomment below and update the code to test ItemInventoryV2
-      //var instane = new FulfillmentcomApIv2.ItemInventoryV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ItemInventoryV2);
+      //var instane = new fulfillmentApiV2.ItemInventoryV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.ItemInventoryV2);
     });
 
     it('should have the property quantity (base name: "quantity")', function() {
       // uncomment below and update the code to test the property quantity
-      //var instane = new FulfillmentcomApIv2.ItemInventoryV2();
+      //var instane = new fulfillmentApiV2.ItemInventoryV2();
       //expect(instance).to.be();
     });
 
     it('should have the property merchant (base name: "merchant")', function() {
       // uncomment below and update the code to test the property merchant
-      //var instane = new FulfillmentcomApIv2.ItemInventoryV2();
+      //var instane = new fulfillmentApiV2.ItemInventoryV2();
       //expect(instance).to.be();
     });
 
     it('should have the property item (base name: "item")', function() {
       // uncomment below and update the code to test the property item
-      //var instane = new FulfillmentcomApIv2.ItemInventoryV2();
+      //var instane = new fulfillmentApiV2.ItemInventoryV2();
       //expect(instance).to.be();
     });
 

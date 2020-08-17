@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.ReturnsArrayV2Order
+# fulfillmentApiV2.ReturnsArrayV2Order
 
 ## Properties
 Name | Type | Description | Notes

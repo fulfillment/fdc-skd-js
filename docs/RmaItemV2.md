@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.RmaItemV2
+# fulfillmentApiV2.RmaItemV2
 
 ## Properties
 Name | Type | Description | Notes

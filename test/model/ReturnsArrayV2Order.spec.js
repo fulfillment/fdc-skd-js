@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ReturnsArrayV2Order();
+    instance = new fulfillmentApiV2.ReturnsArrayV2Order();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,25 +49,25 @@
   describe('ReturnsArrayV2Order', function() {
     it('should create an instance of ReturnsArrayV2Order', function() {
       // uncomment below and update the code to test ReturnsArrayV2Order
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Order();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ReturnsArrayV2Order);
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Order();
+      //expect(instance).to.be.a(fulfillmentApiV2.ReturnsArrayV2Order);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Order();
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Order();
       //expect(instance).to.be();
     });
 
     it('should have the property merchantId (base name: "merchantId")', function() {
       // uncomment below and update the code to test the property merchantId
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Order();
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Order();
       //expect(instance).to.be();
     });
 
     it('should have the property merchantOrderId (base name: "merchantOrderId")', function() {
       // uncomment below and update the code to test the property merchantOrderId
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Order();
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Order();
       //expect(instance).to.be();
     });
 

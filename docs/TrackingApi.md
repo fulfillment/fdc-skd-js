@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.TrackingApi
+# fulfillmentApiV2.TrackingApi
 
 All URIs are relative to *https://api.fulfillment.com/v2*
 
@@ -16,9 +16,9 @@ Get uniformed tracking events for any package, this response is carrier independ
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
+import fulfillmentApiV2 from 'fulfillment';
 
-let apiInstance = new FulfillmentcomApIv2.TrackingApi();
+let apiInstance = new fulfillmentApiV2.TrackingApi();
 let opts = { 
   'trackingNumber': "trackingNumber_example" // String | 
 };

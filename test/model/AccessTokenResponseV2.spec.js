@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.AccessTokenResponseV2();
+    instance = new fulfillmentApiV2.AccessTokenResponseV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,31 +49,31 @@
   describe('AccessTokenResponseV2', function() {
     it('should create an instance of AccessTokenResponseV2', function() {
       // uncomment below and update the code to test AccessTokenResponseV2
-      //var instane = new FulfillmentcomApIv2.AccessTokenResponseV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.AccessTokenResponseV2);
+      //var instane = new fulfillmentApiV2.AccessTokenResponseV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.AccessTokenResponseV2);
     });
 
     it('should have the property refreshToken (base name: "refresh_token")', function() {
       // uncomment below and update the code to test the property refreshToken
-      //var instane = new FulfillmentcomApIv2.AccessTokenResponseV2();
+      //var instane = new fulfillmentApiV2.AccessTokenResponseV2();
       //expect(instance).to.be();
     });
 
     it('should have the property expiresIn (base name: "expires_in")', function() {
       // uncomment below and update the code to test the property expiresIn
-      //var instane = new FulfillmentcomApIv2.AccessTokenResponseV2();
+      //var instane = new fulfillmentApiV2.AccessTokenResponseV2();
       //expect(instance).to.be();
     });
 
     it('should have the property tokenType (base name: "token_type")', function() {
       // uncomment below and update the code to test the property tokenType
-      //var instane = new FulfillmentcomApIv2.AccessTokenResponseV2();
+      //var instane = new fulfillmentApiV2.AccessTokenResponseV2();
       //expect(instance).to.be();
     });
 
     it('should have the property accessToken (base name: "access_token")', function() {
       // uncomment below and update the code to test the property accessToken
-      //var instane = new FulfillmentcomApIv2.AccessTokenResponseV2();
+      //var instane = new fulfillmentApiV2.AccessTokenResponseV2();
       //expect(instance).to.be();
     });
 

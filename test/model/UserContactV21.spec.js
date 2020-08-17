@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.UserContactV21();
+    instance = new fulfillmentApiV2.UserContactV21();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,73 +49,73 @@
   describe('UserContactV21', function() {
     it('should create an instance of UserContactV21', function() {
       // uncomment below and update the code to test UserContactV21
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.UserContactV21);
+      //var instane = new fulfillmentApiV2.UserContactV21();
+      //expect(instance).to.be.a(fulfillmentApiV2.UserContactV21);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property apiKey (base name: "apiKey")', function() {
       // uncomment below and update the code to test the property apiKey
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property contactInfo (base name: "contactInfo")', function() {
       // uncomment below and update the code to test the property contactInfo
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property merchant (base name: "merchant")', function() {
       // uncomment below and update the code to test the property merchant
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property createDate (base name: "createDate")', function() {
       // uncomment below and update the code to test the property createDate
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property updatedAt (base name: "updatedAt")', function() {
       // uncomment below and update the code to test the property updatedAt
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property updatedBy (base name: "updatedBy")', function() {
       // uncomment below and update the code to test the property updatedBy
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property deptLeader (base name: "deptLeader")', function() {
       // uncomment below and update the code to test the property deptLeader
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property username (base name: "username")', function() {
       // uncomment below and update the code to test the property username
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new FulfillmentcomApIv2.UserContactV21();
+      //var instane = new fulfillmentApiV2.UserContactV21();
       //expect(instance).to.be();
     });
 

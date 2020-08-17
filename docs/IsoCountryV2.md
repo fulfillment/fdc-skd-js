@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.IsoCountryV2
+# fulfillmentApiV2.IsoCountryV2
 
 ## Properties
 Name | Type | Description | Notes

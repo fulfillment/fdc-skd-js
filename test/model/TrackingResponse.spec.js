@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.TrackingResponse();
+    instance = new fulfillmentApiV2.TrackingResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,85 +49,85 @@
   describe('TrackingResponse', function() {
     it('should create an instance of TrackingResponse', function() {
       // uncomment below and update the code to test TrackingResponse
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.TrackingResponse);
+      //var instane = new fulfillmentApiV2.TrackingResponse();
+      //expect(instance).to.be.a(fulfillmentApiV2.TrackingResponse);
     });
 
     it('should have the property trackedEvents (base name: "trackedEvents")', function() {
       // uncomment below and update the code to test the property trackedEvents
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property fdcOrderId (base name: "fdcOrderId")', function() {
       // uncomment below and update the code to test the property fdcOrderId
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property firstTransitEvent (base name: "firstTransitEvent")', function() {
       // uncomment below and update the code to test the property firstTransitEvent
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property lastUpdatedDateTime (base name: "lastUpdatedDateTime")', function() {
       // uncomment below and update the code to test the property lastUpdatedDateTime
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property lastCheckedDateTime (base name: "lastCheckedDateTime")', function() {
       // uncomment below and update the code to test the property lastCheckedDateTime
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property firstCheckedDateTime (base name: "firstCheckedDateTime")', function() {
       // uncomment below and update the code to test the property firstCheckedDateTime
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property statusMessage (base name: "statusMessage")', function() {
       // uncomment below and update the code to test the property statusMessage
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property statusCategoryCode (base name: "statusCategoryCode")', function() {
       // uncomment below and update the code to test the property statusCategoryCode
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property statusDateTime (base name: "statusDateTime")', function() {
       // uncomment below and update the code to test the property statusDateTime
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property destination (base name: "destination")', function() {
       // uncomment below and update the code to test the property destination
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property origin (base name: "origin")', function() {
       // uncomment below and update the code to test the property origin
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property trackingNumber (base name: "trackingNumber")', function() {
       // uncomment below and update the code to test the property trackingNumber
-      //var instane = new FulfillmentcomApIv2.TrackingResponse();
+      //var instane = new fulfillmentApiV2.TrackingResponse();
       //expect(instance).to.be();
     });
 

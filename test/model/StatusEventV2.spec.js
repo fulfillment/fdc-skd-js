@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.StatusEventV2();
+    instance = new fulfillmentApiV2.StatusEventV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,37 +49,37 @@
   describe('StatusEventV2', function() {
     it('should create an instance of StatusEventV2', function() {
       // uncomment below and update the code to test StatusEventV2
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.StatusEventV2);
+      //var instane = new fulfillmentApiV2.StatusEventV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.StatusEventV2);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
+      //var instane = new fulfillmentApiV2.StatusEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property createdBy (base name: "createdBy")', function() {
       // uncomment below and update the code to test the property createdBy
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
+      //var instane = new fulfillmentApiV2.StatusEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
+      //var instane = new fulfillmentApiV2.StatusEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property reason (base name: "reason")', function() {
       // uncomment below and update the code to test the property reason
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
+      //var instane = new fulfillmentApiV2.StatusEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property _date (base name: "date")', function() {
       // uncomment below and update the code to test the property _date
-      //var instane = new FulfillmentcomApIv2.StatusEventV2();
+      //var instane = new fulfillmentApiV2.StatusEventV2();
       //expect(instance).to.be();
     });
 

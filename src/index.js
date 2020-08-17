@@ -80,9 +80,9 @@ import UsersApi from './api/UsersApi';
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var FulfillmentcomApIv2 = require('index'); // See note below*.
-* var xxxSvc = new FulfillmentcomApIv2.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new FulfillmentcomApIv2.Yyy(); // Construct a model instance.
+* var fulfillmentApiV2 = require('index'); // See note below*.
+* var xxxSvc = new fulfillmentApiV2.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new fulfillmentApiV2.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -94,8 +94,8 @@ import UsersApi from './api/UsersApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new FulfillmentcomApIv2.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new FulfillmentcomApIv2.Yyy(); // Construct a model instance.
+* var xxxSvc = new fulfillmentApiV2.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new fulfillmentApiV2.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.

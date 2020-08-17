@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ConsigneeNewV2();
+    instance = new fulfillmentApiV2.ConsigneeNewV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,73 +49,73 @@
   describe('ConsigneeNewV2', function() {
     it('should create an instance of ConsigneeNewV2', function() {
       // uncomment below and update the code to test ConsigneeNewV2
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ConsigneeNewV2);
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.ConsigneeNewV2);
     });
 
     it('should have the property companyName (base name: "companyName")', function() {
       // uncomment below and update the code to test the property companyName
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property country (base name: "country")', function() {
       // uncomment below and update the code to test the property country
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property postalCode (base name: "postalCode")', function() {
       // uncomment below and update the code to test the property postalCode
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property addressRegion (base name: "addressRegion")', function() {
       // uncomment below and update the code to test the property addressRegion
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property addressLocality (base name: "addressLocality")', function() {
       // uncomment below and update the code to test the property addressLocality
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property address2 (base name: "address2")', function() {
       // uncomment below and update the code to test the property address2
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property address1 (base name: "address1")', function() {
       // uncomment below and update the code to test the property address1
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property phone (base name: "phone")', function() {
       // uncomment below and update the code to test the property phone
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property lastName (base name: "lastName")', function() {
       // uncomment below and update the code to test the property lastName
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property firstName (base name: "firstName")', function() {
       // uncomment below and update the code to test the property firstName
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 
     it('should have the property email (base name: "email")', function() {
       // uncomment below and update the code to test the property email
-      //var instane = new FulfillmentcomApIv2.ConsigneeNewV2();
+      //var instane = new fulfillmentApiV2.ConsigneeNewV2();
       //expect(instance).to.be();
     });
 

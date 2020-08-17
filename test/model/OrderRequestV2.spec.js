@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OrderRequestV2();
+    instance = new fulfillmentApiV2.OrderRequestV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,55 +49,55 @@
   describe('OrderRequestV2', function() {
     it('should create an instance of OrderRequestV2', function() {
       // uncomment below and update the code to test OrderRequestV2
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OrderRequestV2);
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.OrderRequestV2);
     });
 
     it('should have the property merchantId (base name: "merchantId")', function() {
       // uncomment below and update the code to test the property merchantId
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property merchantOrderId (base name: "merchantOrderId")', function() {
       // uncomment below and update the code to test the property merchantOrderId
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property shippingMethod (base name: "shippingMethod")', function() {
       // uncomment below and update the code to test the property shippingMethod
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property recipient (base name: "recipient")', function() {
       // uncomment below and update the code to test the property recipient
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property items (base name: "items")', function() {
       // uncomment below and update the code to test the property items
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property warehouse (base name: "warehouse")', function() {
       // uncomment below and update the code to test the property warehouse
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property integrator (base name: "integrator")', function() {
       // uncomment below and update the code to test the property integrator
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property notes (base name: "notes")', function() {
       // uncomment below and update the code to test the property notes
-      //var instane = new FulfillmentcomApIv2.OrderRequestV2();
+      //var instane = new fulfillmentApiV2.OrderRequestV2();
       //expect(instance).to.be();
     });
 

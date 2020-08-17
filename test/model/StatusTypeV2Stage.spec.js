@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.StatusTypeV2Stage();
+    instance = new fulfillmentApiV2.StatusTypeV2Stage();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,19 +49,19 @@
   describe('StatusTypeV2Stage', function() {
     it('should create an instance of StatusTypeV2Stage', function() {
       // uncomment below and update the code to test StatusTypeV2Stage
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2Stage();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.StatusTypeV2Stage);
+      //var instane = new fulfillmentApiV2.StatusTypeV2Stage();
+      //expect(instance).to.be.a(fulfillmentApiV2.StatusTypeV2Stage);
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2Stage();
+      //var instane = new fulfillmentApiV2.StatusTypeV2Stage();
       //expect(instance).to.be();
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2Stage();
+      //var instane = new fulfillmentApiV2.StatusTypeV2Stage();
       //expect(instance).to.be();
     });
 

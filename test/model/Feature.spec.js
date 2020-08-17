@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.Feature();
+    instance = new fulfillmentApiV2.Feature();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,49 +49,49 @@
   describe('Feature', function() {
     it('should create an instance of Feature', function() {
       // uncomment below and update the code to test Feature
-      //var instane = new FulfillmentcomApIv2.Feature();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.Feature);
+      //var instane = new fulfillmentApiV2.Feature();
+      //expect(instance).to.be.a(fulfillmentApiV2.Feature);
     });
 
     it('should have the property type (base name: "type")', function() {
       // uncomment below and update the code to test the property type
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property properties (base name: "properties")', function() {
       // uncomment below and update the code to test the property properties
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property geometry (base name: "geometry")', function() {
       // uncomment below and update the code to test the property geometry
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property bbox (base name: "bbox")', function() {
       // uncomment below and update the code to test the property bbox
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property title (base name: "title")', function() {
       // uncomment below and update the code to test the property title
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 
     it('should have the property centerline (base name: "centerline")', function() {
       // uncomment below and update the code to test the property centerline
-      //var instane = new FulfillmentcomApIv2.Feature();
+      //var instane = new fulfillmentApiV2.Feature();
       //expect(instance).to.be();
     });
 

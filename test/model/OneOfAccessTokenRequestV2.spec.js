@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OneOfAccessTokenRequestV2();
+    instance = new fulfillmentApiV2.OneOfAccessTokenRequestV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,8 +49,8 @@
   describe('OneOfAccessTokenRequestV2', function() {
     it('should create an instance of OneOfAccessTokenRequestV2', function() {
       // uncomment below and update the code to test OneOfAccessTokenRequestV2
-      //var instane = new FulfillmentcomApIv2.OneOfAccessTokenRequestV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OneOfAccessTokenRequestV2);
+      //var instane = new fulfillmentApiV2.OneOfAccessTokenRequestV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.OneOfAccessTokenRequestV2);
     });
 
   });

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.TrackingResponse
+# fulfillmentApiV2.TrackingResponse
 
 ## Properties
 Name | Type | Description | Notes

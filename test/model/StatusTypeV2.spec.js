@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.StatusTypeV2();
+    instance = new fulfillmentApiV2.StatusTypeV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,67 +49,67 @@
   describe('StatusTypeV2', function() {
     it('should create an instance of StatusTypeV2', function() {
       // uncomment below and update the code to test StatusTypeV2
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.StatusTypeV2);
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.StatusTypeV2);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property isClosed (base name: "isClosed")', function() {
       // uncomment below and update the code to test the property isClosed
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property actionRequiredBy (base name: "actionRequiredBy")', function() {
       // uncomment below and update the code to test the property actionRequiredBy
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property stage (base name: "stage")', function() {
       // uncomment below and update the code to test the property stage
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property state (base name: "state")', function() {
       // uncomment below and update the code to test the property state
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property detail (base name: "detail")', function() {
       // uncomment below and update the code to test the property detail
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property reason (base name: "reason")', function() {
       // uncomment below and update the code to test the property reason
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property detailCode (base name: "detailCode")', function() {
       // uncomment below and update the code to test the property detailCode
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new FulfillmentcomApIv2.StatusTypeV2();
+      //var instane = new fulfillmentApiV2.StatusTypeV2();
       //expect(instance).to.be();
     });
 

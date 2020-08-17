@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.AccessTokenResponseV2
+# fulfillmentApiV2.AccessTokenResponseV2
 
 ## Properties
 Name | Type | Description | Notes

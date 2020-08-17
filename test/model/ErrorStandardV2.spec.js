@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ErrorStandardV2();
+    instance = new fulfillmentApiV2.ErrorStandardV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,13 +49,13 @@
   describe('ErrorStandardV2', function() {
     it('should create an instance of ErrorStandardV2', function() {
       // uncomment below and update the code to test ErrorStandardV2
-      //var instane = new FulfillmentcomApIv2.ErrorStandardV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ErrorStandardV2);
+      //var instane = new fulfillmentApiV2.ErrorStandardV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.ErrorStandardV2);
     });
 
     it('should have the property message (base name: "message")', function() {
       // uncomment below and update the code to test the property message
-      //var instane = new FulfillmentcomApIv2.ErrorStandardV2();
+      //var instane = new fulfillmentApiV2.ErrorStandardV2();
       //expect(instance).to.be();
     });
 

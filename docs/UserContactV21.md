@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.UserContactV21
+# fulfillmentApiV2.UserContactV21
 
 ## Properties
 Name | Type | Description | Notes

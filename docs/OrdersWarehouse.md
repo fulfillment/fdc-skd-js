@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.OrdersWarehouse
+# fulfillmentApiV2.OrdersWarehouse
 
 ## Properties
 Name | Type | Description | Notes

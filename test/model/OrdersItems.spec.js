@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OrdersItems();
+    instance = new fulfillmentApiV2.OrdersItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,25 +49,25 @@
   describe('OrdersItems', function() {
     it('should create an instance of OrdersItems', function() {
       // uncomment below and update the code to test OrdersItems
-      //var instane = new FulfillmentcomApIv2.OrdersItems();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OrdersItems);
+      //var instane = new fulfillmentApiV2.OrdersItems();
+      //expect(instance).to.be.a(fulfillmentApiV2.OrdersItems);
     });
 
     it('should have the property quantity (base name: "quantity")', function() {
       // uncomment below and update the code to test the property quantity
-      //var instane = new FulfillmentcomApIv2.OrdersItems();
+      //var instane = new fulfillmentApiV2.OrdersItems();
       //expect(instance).to.be();
     });
 
     it('should have the property sku (base name: "sku")', function() {
       // uncomment below and update the code to test the property sku
-      //var instane = new FulfillmentcomApIv2.OrdersItems();
+      //var instane = new fulfillmentApiV2.OrdersItems();
       //expect(instance).to.be();
     });
 
     it('should have the property declaredValue (base name: "declaredValue")', function() {
       // uncomment below and update the code to test the property declaredValue
-      //var instane = new FulfillmentcomApIv2.OrdersItems();
+      //var instane = new fulfillmentApiV2.OrdersItems();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.OrderRequestV2
+# fulfillmentApiV2.OrderRequestV2
 
 ## Properties
 Name | Type | Description | Notes

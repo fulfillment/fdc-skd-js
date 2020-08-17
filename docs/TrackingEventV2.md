@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.TrackingEventV2
+# fulfillmentApiV2.TrackingEventV2
 
 ## Properties
 Name | Type | Description | Notes

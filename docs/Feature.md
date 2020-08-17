@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.Feature
+# fulfillmentApiV2.Feature
 
 ## Properties
 Name | Type | Description | Notes

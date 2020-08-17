@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.ConsigneeNewV2
+# fulfillmentApiV2.ConsigneeNewV2
 
 ## Properties
 Name | Type | Description | Notes

@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OrderShipV2();
+    instance = new fulfillmentApiV2.OrderShipV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,19 +49,19 @@
   describe('OrderShipV2', function() {
     it('should create an instance of OrderShipV2', function() {
       // uncomment below and update the code to test OrderShipV2
-      //var instane = new FulfillmentcomApIv2.OrderShipV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OrderShipV2);
+      //var instane = new fulfillmentApiV2.OrderShipV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.OrderShipV2);
     });
 
     it('should have the property weightOverride (base name: "weightOverride")', function() {
       // uncomment below and update the code to test the property weightOverride
-      //var instane = new FulfillmentcomApIv2.OrderShipV2();
+      //var instane = new fulfillmentApiV2.OrderShipV2();
       //expect(instance).to.be();
     });
 
     it('should have the property trackingNumber (base name: "trackingNumber")', function() {
       // uncomment below and update the code to test the property trackingNumber
-      //var instane = new FulfillmentcomApIv2.OrderShipV2();
+      //var instane = new fulfillmentApiV2.OrderShipV2();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.PaginationV2
+# fulfillmentApiV2.PaginationV2
 
 ## Properties
 Name | Type | Description | Notes

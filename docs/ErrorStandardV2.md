@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.ErrorStandardV2
+# fulfillmentApiV2.ErrorStandardV2
 
 ## Properties
 Name | Type | Description | Notes

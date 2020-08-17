@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.OneOfGeometryCoordinates();
+    instance = new fulfillmentApiV2.OneOfGeometryCoordinates();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,8 +49,8 @@
   describe('OneOfGeometryCoordinates', function() {
     it('should create an instance of OneOfGeometryCoordinates', function() {
       // uncomment below and update the code to test OneOfGeometryCoordinates
-      //var instane = new FulfillmentcomApIv2.OneOfGeometryCoordinates();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.OneOfGeometryCoordinates);
+      //var instane = new fulfillmentApiV2.OneOfGeometryCoordinates();
+      //expect(instance).to.be.a(fulfillmentApiV2.OneOfGeometryCoordinates);
     });
 
   });

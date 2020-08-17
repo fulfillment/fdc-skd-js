@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.ReturnsApi
+# fulfillmentApiV2.ReturnsApi
 
 All URIs are relative to *https://api.fulfillment.com/v2*
 
@@ -17,14 +17,14 @@ Retrieves summary return activity during the queried timespan. Although return k
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
-let defaultClient = FulfillmentcomApIv2.ApiClient.instance;
+import fulfillmentApiV2 from 'fulfillment';
+let defaultClient = fulfillmentApiV2.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: fdcAuth
 let fdcAuth = defaultClient.authentications['fdcAuth'];
 fdcAuth.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new FulfillmentcomApIv2.ReturnsApi();
+let apiInstance = new fulfillmentApiV2.ReturnsApi();
 let fromDate = "fromDate_example"; // String | Date-time in ISO 8601 format for selecting orders after, or at, the specified time
 let toDate = "toDate_example"; // String | Date-time in ISO 8601 format for selecting orders before, or at, the specified time
 let opts = { 
@@ -72,15 +72,15 @@ Inform FDC of an expected return.
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
-let defaultClient = FulfillmentcomApIv2.ApiClient.instance;
+import fulfillmentApiV2 from 'fulfillment';
+let defaultClient = fulfillmentApiV2.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: fdcAuth
 let fdcAuth = defaultClient.authentications['fdcAuth'];
 fdcAuth.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new FulfillmentcomApIv2.ReturnsApi();
-let body = new FulfillmentcomApIv2.RmaRequestV2(); // RmaRequestV2 | RMA
+let apiInstance = new fulfillmentApiV2.ReturnsApi();
+let body = new fulfillmentApiV2.RmaRequestV2(); // RmaRequestV2 | RMA
 
 apiInstance.putReturns(body, (error, data, response) => {
   if (error) {

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.AuthApi
+# fulfillmentApiV2.AuthApi
 
 All URIs are relative to *https://api.fulfillment.com/v2*
 
@@ -16,10 +16,10 @@ By default tokens are valid for 7 days while refresh tokens are valid for 30 day
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
+import fulfillmentApiV2 from 'fulfillment';
 
-let apiInstance = new FulfillmentcomApIv2.AuthApi();
-let body = new FulfillmentcomApIv2.AccessTokenRequestV2(); // AccessTokenRequestV2 | Get an access token
+let apiInstance = new fulfillmentApiV2.AuthApi();
+let body = new fulfillmentApiV2.AccessTokenRequestV2(); // AccessTokenRequestV2 | Get an access token
 
 apiInstance.postOauthAccessToken(body, (error, data, response) => {
   if (error) {

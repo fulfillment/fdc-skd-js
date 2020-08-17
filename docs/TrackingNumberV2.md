@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.TrackingNumberV2
+# fulfillmentApiV2.TrackingNumberV2
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.OrdersItems
+# fulfillmentApiV2.OrdersItems
 
 ## Properties
 Name | Type | Description | Notes

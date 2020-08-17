@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.PaginationV2();
+    instance = new fulfillmentApiV2.PaginationV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,31 +49,31 @@
   describe('PaginationV2', function() {
     it('should create an instance of PaginationV2', function() {
       // uncomment below and update the code to test PaginationV2
-      //var instane = new FulfillmentcomApIv2.PaginationV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.PaginationV2);
+      //var instane = new fulfillmentApiV2.PaginationV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.PaginationV2);
     });
 
     it('should have the property totalPages (base name: "totalPages")', function() {
       // uncomment below and update the code to test the property totalPages
-      //var instane = new FulfillmentcomApIv2.PaginationV2();
+      //var instane = new fulfillmentApiV2.PaginationV2();
       //expect(instance).to.be();
     });
 
     it('should have the property currentPage (base name: "currentPage")', function() {
       // uncomment below and update the code to test the property currentPage
-      //var instane = new FulfillmentcomApIv2.PaginationV2();
+      //var instane = new fulfillmentApiV2.PaginationV2();
       //expect(instance).to.be();
     });
 
     it('should have the property count (base name: "count")', function() {
       // uncomment below and update the code to test the property count
-      //var instane = new FulfillmentcomApIv2.PaginationV2();
+      //var instane = new fulfillmentApiV2.PaginationV2();
       //expect(instance).to.be();
     });
 
     it('should have the property total (base name: "total")', function() {
       // uncomment below and update the code to test the property total
-      //var instane = new FulfillmentcomApIv2.PaginationV2();
+      //var instane = new fulfillmentApiV2.PaginationV2();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.RmaResponseV2
+# fulfillmentApiV2.RmaResponseV2
 
 ## Properties
 Name | Type | Description | Notes

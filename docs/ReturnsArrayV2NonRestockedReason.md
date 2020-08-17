@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.ReturnsArrayV2NonRestockedReason
+# fulfillmentApiV2.ReturnsArrayV2NonRestockedReason
 
 ## Properties
 Name | Type | Description | Notes

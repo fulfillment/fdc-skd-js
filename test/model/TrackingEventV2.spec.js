@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.TrackingEventV2();
+    instance = new fulfillmentApiV2.TrackingEventV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,43 +49,43 @@
   describe('TrackingEventV2', function() {
     it('should create an instance of TrackingEventV2', function() {
       // uncomment below and update the code to test TrackingEventV2
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.TrackingEventV2);
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.TrackingEventV2);
     });
 
     it('should have the property eventSource (base name: "eventSource")', function() {
       // uncomment below and update the code to test the property eventSource
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property eventLocation (base name: "eventLocation")', function() {
       // uncomment below and update the code to test the property eventLocation
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property eventDateTime (base name: "eventDateTime")', function() {
       // uncomment below and update the code to test the property eventDateTime
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property eventCategoryCode (base name: "eventCategoryCode")', function() {
       // uncomment below and update the code to test the property eventCategoryCode
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property eventCategory (base name: "eventCategory")', function() {
       // uncomment below and update the code to test the property eventCategory
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 
     it('should have the property eventStatus (base name: "eventStatus")', function() {
       // uncomment below and update the code to test the property eventStatus
-      //var instane = new FulfillmentcomApIv2.TrackingEventV2();
+      //var instane = new fulfillmentApiV2.TrackingEventV2();
       //expect(instance).to.be();
     });
 

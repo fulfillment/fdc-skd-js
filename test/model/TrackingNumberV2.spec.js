@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.TrackingNumberV2();
+    instance = new fulfillmentApiV2.TrackingNumberV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,25 +49,25 @@
   describe('TrackingNumberV2', function() {
     it('should create an instance of TrackingNumberV2', function() {
       // uncomment below and update the code to test TrackingNumberV2
-      //var instane = new FulfillmentcomApIv2.TrackingNumberV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.TrackingNumberV2);
+      //var instane = new fulfillmentApiV2.TrackingNumberV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.TrackingNumberV2);
     });
 
     it('should have the property carrier (base name: "carrier")', function() {
       // uncomment below and update the code to test the property carrier
-      //var instane = new FulfillmentcomApIv2.TrackingNumberV2();
+      //var instane = new fulfillmentApiV2.TrackingNumberV2();
       //expect(instance).to.be();
     });
 
     it('should have the property barcodeScanValue (base name: "barcodeScanValue")', function() {
       // uncomment below and update the code to test the property barcodeScanValue
-      //var instane = new FulfillmentcomApIv2.TrackingNumberV2();
+      //var instane = new fulfillmentApiV2.TrackingNumberV2();
       //expect(instance).to.be();
     });
 
     it('should have the property value (base name: "value")', function() {
       // uncomment below and update the code to test the property value
-      //var instane = new FulfillmentcomApIv2.TrackingNumberV2();
+      //var instane = new fulfillmentApiV2.TrackingNumberV2();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.OrdersidstatusStatus
+# fulfillmentApiV2.OrdersidstatusStatus
 
 ## Properties
 Name | Type | Description | Notes

@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ItemInventoryArrayV2QuantityTotal();
+    instance = new fulfillmentApiV2.ItemInventoryArrayV2QuantityTotal();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,13 +49,13 @@
   describe('ItemInventoryArrayV2QuantityTotal', function() {
     it('should create an instance of ItemInventoryArrayV2QuantityTotal', function() {
       // uncomment below and update the code to test ItemInventoryArrayV2QuantityTotal
-      //var instane = new FulfillmentcomApIv2.ItemInventoryArrayV2QuantityTotal();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ItemInventoryArrayV2QuantityTotal);
+      //var instane = new fulfillmentApiV2.ItemInventoryArrayV2QuantityTotal();
+      //expect(instance).to.be.a(fulfillmentApiV2.ItemInventoryArrayV2QuantityTotal);
     });
 
     it('should have the property availableToPromise (base name: "availableToPromise")', function() {
       // uncomment below and update the code to test the property availableToPromise
-      //var instane = new FulfillmentcomApIv2.ItemInventoryArrayV2QuantityTotal();
+      //var instane = new fulfillmentApiV2.ItemInventoryArrayV2QuantityTotal();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.PartnersApi
+# fulfillmentApiV2.PartnersApi
 
 All URIs are relative to *https://api.fulfillment.com/v2*
 
@@ -17,15 +17,15 @@ Note, this API is used to update orders and is reserved for our shipping partner
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
-let defaultClient = FulfillmentcomApIv2.ApiClient.instance;
+import fulfillmentApiV2 from 'fulfillment';
+let defaultClient = fulfillmentApiV2.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: fdcAuth
 let fdcAuth = defaultClient.authentications['fdcAuth'];
 fdcAuth.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new FulfillmentcomApIv2.PartnersApi();
-let body = new FulfillmentcomApIv2.OrderShipV2(); // OrderShipV2 | Shipping Details
+let apiInstance = new fulfillmentApiV2.PartnersApi();
+let body = new fulfillmentApiV2.OrderShipV2(); // OrderShipV2 | Shipping Details
 let id = 56; // Number | The FDC order Id
 
 apiInstance.putOrdersIdShip(bodyid, (error, data, response) => {
@@ -67,15 +67,15 @@ Note, this API is used to update orders and is reserved for our shipping partner
 
 ### Example
 ```javascript
-import FulfillmentcomApIv2 from 'fulfillmentcom_ap_iv2';
-let defaultClient = FulfillmentcomApIv2.ApiClient.instance;
+import fulfillmentApiV2 from 'fulfillment';
+let defaultClient = fulfillmentApiV2.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: fdcAuth
 let fdcAuth = defaultClient.authentications['fdcAuth'];
 fdcAuth.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new FulfillmentcomApIv2.PartnersApi();
-let body = new FulfillmentcomApIv2.StatusTypeSimpleV2(); // StatusTypeSimpleV2 | New status event
+let apiInstance = new fulfillmentApiV2.PartnersApi();
+let body = new fulfillmentApiV2.StatusTypeSimpleV2(); // StatusTypeSimpleV2 | New status event
 let id = 56; // Number | The FDC order Id
 
 apiInstance.putOrdersIdStatus(bodyid, (error, data, response) => {

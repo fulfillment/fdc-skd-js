@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ItemInventoryArrayV2Meta();
+    instance = new fulfillmentApiV2.ItemInventoryArrayV2Meta();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,13 +49,13 @@
   describe('ItemInventoryArrayV2Meta', function() {
     it('should create an instance of ItemInventoryArrayV2Meta', function() {
       // uncomment below and update the code to test ItemInventoryArrayV2Meta
-      //var instane = new FulfillmentcomApIv2.ItemInventoryArrayV2Meta();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ItemInventoryArrayV2Meta);
+      //var instane = new fulfillmentApiV2.ItemInventoryArrayV2Meta();
+      //expect(instance).to.be.a(fulfillmentApiV2.ItemInventoryArrayV2Meta);
     });
 
     it('should have the property pagination (base name: "pagination")', function() {
       // uncomment below and update the code to test the property pagination
-      //var instane = new FulfillmentcomApIv2.ItemInventoryArrayV2Meta();
+      //var instane = new fulfillmentApiV2.ItemInventoryArrayV2Meta();
       //expect(instance).to.be();
     });
 

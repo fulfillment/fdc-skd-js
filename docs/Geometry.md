@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.Geometry
+# fulfillmentApiV2.Geometry
 
 ## Properties
 Name | Type | Description | Notes

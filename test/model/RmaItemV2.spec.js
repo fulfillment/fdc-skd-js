@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.RmaItemV2();
+    instance = new fulfillmentApiV2.RmaItemV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,55 +49,55 @@
   describe('RmaItemV2', function() {
     it('should create an instance of RmaItemV2', function() {
       // uncomment below and update the code to test RmaItemV2
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.RmaItemV2);
+      //var instane = new fulfillmentApiV2.RmaItemV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.RmaItemV2);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property nonRestockedReason (base name: "nonRestockedReason")', function() {
       // uncomment below and update the code to test the property nonRestockedReason
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property quantityShipped (base name: "quantityShipped")', function() {
       // uncomment below and update the code to test the property quantityShipped
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property quantityReturned (base name: "quantityReturned")', function() {
       // uncomment below and update the code to test the property quantityReturned
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property quantityRestocked (base name: "quantityRestocked")', function() {
       // uncomment below and update the code to test the property quantityRestocked
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property quantityExpected (base name: "quantityExpected")', function() {
       // uncomment below and update the code to test the property quantityExpected
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property comments (base name: "comments")', function() {
       // uncomment below and update the code to test the property comments
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 
     it('should have the property item (base name: "item")', function() {
       // uncomment below and update the code to test the property item
-      //var instane = new FulfillmentcomApIv2.RmaItemV2();
+      //var instane = new fulfillmentApiV2.RmaItemV2();
       //expect(instance).to.be();
     });
 

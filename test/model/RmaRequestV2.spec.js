@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.RmaRequestV2();
+    instance = new fulfillmentApiV2.RmaRequestV2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,31 +49,31 @@
   describe('RmaRequestV2', function() {
     it('should create an instance of RmaRequestV2', function() {
       // uncomment below and update the code to test RmaRequestV2
-      //var instane = new FulfillmentcomApIv2.RmaRequestV2();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.RmaRequestV2);
+      //var instane = new fulfillmentApiV2.RmaRequestV2();
+      //expect(instance).to.be.a(fulfillmentApiV2.RmaRequestV2);
     });
 
     it('should have the property items (base name: "items")', function() {
       // uncomment below and update the code to test the property items
-      //var instane = new FulfillmentcomApIv2.RmaRequestV2();
+      //var instane = new fulfillmentApiV2.RmaRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property recipient (base name: "recipient")', function() {
       // uncomment below and update the code to test the property recipient
-      //var instane = new FulfillmentcomApIv2.RmaRequestV2();
+      //var instane = new fulfillmentApiV2.RmaRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property merchantOrderId (base name: "merchantOrderId")', function() {
       // uncomment below and update the code to test the property merchantOrderId
-      //var instane = new FulfillmentcomApIv2.RmaRequestV2();
+      //var instane = new fulfillmentApiV2.RmaRequestV2();
       //expect(instance).to.be();
     });
 
     it('should have the property rmaNumber (base name: "rmaNumber")', function() {
       // uncomment below and update the code to test the property rmaNumber
-      //var instane = new FulfillmentcomApIv2.RmaRequestV2();
+      //var instane = new fulfillmentApiV2.RmaRequestV2();
       //expect(instance).to.be();
     });
 

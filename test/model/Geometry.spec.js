@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.Geometry();
+    instance = new fulfillmentApiV2.Geometry();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,19 +49,19 @@
   describe('Geometry', function() {
     it('should create an instance of Geometry', function() {
       // uncomment below and update the code to test Geometry
-      //var instane = new FulfillmentcomApIv2.Geometry();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.Geometry);
+      //var instane = new fulfillmentApiV2.Geometry();
+      //expect(instance).to.be.a(fulfillmentApiV2.Geometry);
     });
 
     it('should have the property type (base name: "type")', function() {
       // uncomment below and update the code to test the property type
-      //var instane = new FulfillmentcomApIv2.Geometry();
+      //var instane = new fulfillmentApiV2.Geometry();
       //expect(instance).to.be();
     });
 
     it('should have the property coordinates (base name: "coordinates")', function() {
       // uncomment below and update the code to test the property coordinates
-      //var instane = new FulfillmentcomApIv2.Geometry();
+      //var instane = new fulfillmentApiV2.Geometry();
       //expect(instance).to.be();
     });
 

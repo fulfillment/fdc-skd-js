@@ -1,4 +1,4 @@
-# FulfillmentcomApIv2.OrderResponseV2ParentOrder
+# fulfillmentApiV2.OrderResponseV2ParentOrder
 
 ## Properties
 Name | Type | Description | Notes

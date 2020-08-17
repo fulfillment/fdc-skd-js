@@ -19,15 +19,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.FulfillmentcomApIv2);
+    factory(root.expect, root.fulfillmentApiV2);
   }
-}(this, function(expect, FulfillmentcomApIv2) {
+}(this, function(expect, fulfillmentApiV2) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new FulfillmentcomApIv2.ReturnsArrayV2Item();
+    instance = new fulfillmentApiV2.ReturnsArrayV2Item();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,19 +49,19 @@
   describe('ReturnsArrayV2Item', function() {
     it('should create an instance of ReturnsArrayV2Item', function() {
       // uncomment below and update the code to test ReturnsArrayV2Item
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Item();
-      //expect(instance).to.be.a(FulfillmentcomApIv2.ReturnsArrayV2Item);
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Item();
+      //expect(instance).to.be.a(fulfillmentApiV2.ReturnsArrayV2Item);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Item();
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Item();
       //expect(instance).to.be();
     });
 
     it('should have the property sku (base name: "sku")', function() {
       // uncomment below and update the code to test the property sku
-      //var instane = new FulfillmentcomApIv2.ReturnsArrayV2Item();
+      //var instane = new fulfillmentApiV2.ReturnsArrayV2Item();
       //expect(instance).to.be();
     });
 
